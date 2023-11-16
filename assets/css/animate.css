@@ -1,0 +1,16 @@
+.section1,
+.section2,
+.section3,
+.section4 {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.section1.animate,
+.section2.animate,
+.section3.animate,
+.section4.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
